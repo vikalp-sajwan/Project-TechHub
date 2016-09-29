@@ -1,0 +1,166 @@
+/*  styling for banner   START*/
+header#banner{ 
+                 border:1px solid black;                          
+                 font-family: sans-serif;
+                 color: greenyellow;
+                 padding:0px 0px 0px 70px; 
+                 margin: 0px;
+                 background-image: url("images/banner.gif" );
+                 font-size:140%;
+                 text-shadow: 2px 2px black;
+                 text-decoration: underline;
+             }
+header#banner h1 a{color: greenyellow;}
+header#banner p {color: greenyellow;text-decoration: none;text-shadow: 2px 2px black;}
+/*  styling for banner   END*/
+
+
+/*  styling for navigation menu   START*/
+nav { background-color: gray;
+      width: 100%;
+    height: 37px;
+    
+}
+nav ul {padding: 1px;  margin-top:1px; }
+nav ul li  {display: inline;float:left;}
+nav ul li ul{ display: none; margin:0px;position:absolute;z-index: 1;}
+nav ul li:hover ul {display:block; 
+                   }
+nav ul li:hover li{float: none}
+nav ul li a{ display:block;
+             position:static;
+             background-color:gray;
+             border:1px solid black;
+             border-radius: 4px;
+             border-collapse:collapse;
+             color: greenyellow;
+             font-family: sans-serif;
+             padding:8px 30px 8px 30px;
+             text-decoration: none;
+             
+           }
+
+ nav ul li a.nav:hover{background-color: gainsboro;
+                         color:mediumvioletred;}                
+             body { background-color:azure;}
+                    
+/*  styling for navigation menu   END*/
+
+
+/* styling for products table   START*/
+table#products a { text-decoration:none;font-family: sans-serif;color: black}
+table#products { margin: 0px; width:70%; display: inline; float: left}
+table#products tr{ margin: 0px 0px 0px 0px}
+table#products tr:nth-child(even) {
+    background-color: lightgreen;
+}
+table#products tr:nth-child(odd) {
+   background-color:lightblue;
+}
+table#products th	{
+    font-size: 2em;
+    background-color: black;
+    color: white;
+}
+table#products td{padding: 3px; text-align: center}
+/* styling for products table   END*/
+
+/* styling for product listing   START*/
+   article.productlist {
+       float: left;
+       display: inline;
+       position: sticky;
+       margin: 0px 0px 5px 0px;
+       padding: 10px;
+       font-size: 110%;
+       width: 73%;
+       text-align: justify;
+       min-height: 280px;
+   background-color: gainsboro;
+        border: 1px solid #aaa;
+   }
+   article.productlist a {
+       color: midnightblue;
+       font-family: sans-serif;
+       text-decoration: none;
+       text-indent: 15px;
+       
+   }
+article.productlist img {
+       margin: 5px;       
+   }
+article.productlist h2{
+    background-color:lightsteelblue;
+    padding: 5px;
+}
+  /* styling for product listing END*/
+
+
+/* styling for product review */
+    article.productreview {
+        display: inline;
+        float: left;
+        margin: 0px 0px 5px 0px;
+        padding: 20px;
+       width: 72%;
+        background-color: gainsboro;
+        border: 1px solid #aaa;
+   }
+   article.productreview h2,article.productreview h3 {
+       width:95%;
+       background-color:skyblue;
+       color: black;
+       font-family: sans-serif;
+       padding:5px;   
+       margin-left: 15px;
+   }
+article.productreview p{
+ 
+    font-size: 16px;   
+    padding: 0 20px 0 20px;
+    text-align: justify;
+    font-family:‘Arial Narrow’, sans-serif;
+    text-indent: 15px;
+}
+article.productreview img{
+    width: 95%;
+    padding: 20px;
+    
+}
+/* styling for product review END*/
+
+
+/* styling for aside */
+  aside {display: inline;
+      background-color: grey;
+      margin: 0px;
+      padding: 0px;
+      clear: none; 
+      float: right;
+      width:24%;
+      min-height: 500px;
+      font-size: 120%;
+  }
+
+/* styling for aside   END */
+
+/* styling for footer   START*/
+  footer {
+      background-color: darkslategray;
+      float: none;
+      clear: both;
+      display: block;
+      width: 100%;
+      margin:0px;
+      padding: 3px;
+  }
+footer p{
+    margin: 0px;
+     padding: 0px;
+     color: white;
+ font-size: 120%;
+  }
+
+
+/* styling for footer   END*/
+
